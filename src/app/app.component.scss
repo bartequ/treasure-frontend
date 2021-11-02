@@ -1,3 +1,18 @@
-body {
-  width: 100%;
+.app {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.app-toolbar {
+  order: 0;
+}
+
+.app-toolbar {
+  order: 1;
+  height: 90%;
+}
+
+.app-footer {
+  order: 2;
 }
